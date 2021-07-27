@@ -43,3 +43,26 @@ git remote add origin <URLFROMGITHUB>:ajoute une télécommande nommée 'origine
 Pousser travail dans le remote
 
 git push origin master : Envoi notre branche nommée 'master' à notre remote sur GitHub nommée 'origin'.
+
+
+
+
+
+git checkout : changer de branche et de revenir en arrière
+
+git checkout -b « nom » : créé branche et switch
+
+git switch : changement de branche
+
+git switch main : switch de branche vers main
+
+git branch « nom » : créé nouvelle branche
+
+
+git merge :
+
+git branch -D « nom » : supprime la branche
+
+
+créé .gitignore ( dedans mettre ce qu’on veux ignorer)
+add et commit
