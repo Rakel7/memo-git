@@ -47,7 +47,6 @@ git push origin master : Envoi notre branche nommée 'master' à notre remote su
 
 
 
-
 git checkout : changer de branche et de revenir en arrière
 
 git checkout -b « nom » : créé branche et switch
@@ -66,3 +65,11 @@ git branch -D « nom » : supprime la branche
 
 créé .gitignore ( dedans mettre ce qu’on veux ignorer)
 add et commit
+
+
+LIVRABLE EXO 7 
+
+Un conflit arrive quand par exemple 2 personnes travaille sur le même fichier chacun en local et qu'ils veulent push sur GitHub. Cela créé un conflit, on nous propose donc doit d'ecraser une partie, soit de garder les 2.
+
+Il faut git pull, notre editeur de texte s'ouvre avec le message de conflit de fusion. Il faut supprimer les marqueurs <<<<<<<< ========= >>>>>>>> puis $ git add. puis refaire un commit avec un commentaire comme "Resolved merge conflict"
+Et on peut push après cela.
